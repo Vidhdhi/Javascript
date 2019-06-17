@@ -1,0 +1,18 @@
+<html>
+<head>
+</head>
+<body>
+  <p id ="demo"> </p>
+  <p id ="demo1"> </p>
+  <p id ="demo2"> </p>
+  <script>
+  var fruits = ["Apple"];
+fruits.unshift("Pineapple, Lemon");
+document.getElementById("demo").innerHTML=fruits;
+
+var fruits= fruits.concat(["Orange","Peach"]);
+document.getElementById("demo2").innerHTML=fruits;
+
+</script>
+</body>
+</html>
